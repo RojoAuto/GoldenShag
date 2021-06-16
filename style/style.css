@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../img/teatro1.jpg);
+  background-size: contain;
+}
+.texttop-cambios {
+  font-family: "Freckle Face", cursive;
+  font-size: 100px;
+}
+.ps-cambios {
+  font-family: "Indie Flower", cursive;
+}
+.icons-cambios {
+  justify-content: space-around;
+  display: flex;
+}
+
+.nav-one {
+  color: yellow;
+  margin-right: 50px;
+  background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0.1955046667104342) 71%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+@media (min-width: 992px) {
+  .nav-one {
+    background: none;
+  }
+}
+.font-a {
+  font-size: x-large;
+}
+
+.img-mid-cambios {
+  width: 75%;
+}
+
+.main-seccion {
+  position: relative;
+  background: url(../img/teatro4.jpg);
+  background-size: cover;
+  min-height: 950px;
+}
+
+.hs-cambios {
+  font-family: "Freckle Face", cursive;
+  font-size: 80px;
+}
+
+.bg-spoty {
+  background: rgb(233, 232, 226);
+  background: radial-gradient(
+    circle,
+    rgba(233, 232, 226, 0.17029458267682074) 46%,
+    rgba(210, 210, 210, 0.7) 100%
+  );
+  border-radius: 20px;
+}
+.background-overlay {
+  position: absolute;
+  background: rgb(80, 78, 67);
+  background: radial-gradient(
+    circle,
+    rgba(80, 78, 67, 0.7081097087272409) 19%,
+    rgba(168, 163, 134, 1) 100%
+  );
+  border-radius: 20px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  border-color: #1ed760;
+}
+
+.background-overlay-dos {
+  padding-bottom: 50px;
+  background-size: contain;
+  background: rgb(80, 78, 67);
+  background: radial-gradient(
+    circle,
+    rgba(80, 78, 67, 0.7081097087272409) 19%,
+    rgba(30, 215, 96, 1) 100%
+  );
+  border-radius: 20px;
+}
+
+form {
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+input textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+.buttom-footer {
+  background: rgb(191, 173, 67);
+  background: linear-gradient(
+    75deg,
+    rgba(191, 173, 67, 0.7277175518644958) 0%,
+    rgba(246, 205, 64, 1) 32%
+  );
+  color: black;
+}
+
+@media (max-width: 480px) {
+  form {
+    width: 100%;
+  }
+}
